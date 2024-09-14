@@ -1,18 +1,128 @@
 * {
-  margin: auto;
-  border: 1px dotted red;
+  margin: 0 auto;
+  padding: 0;
+  /* border: 1px dotted red; */ /* used to debug */
   background-color: #A9A9A9;
 }
 
-.section1 {
-  height: 150px;
-  background-color: #55D454;
+.section-1 {
+  background-color: #54D454;
+  padding: 10px;
+  margin: 2px;
 }
 
-.section2 {
-  height: 50px;
+.inner-section-1 {
+  display: flex;                  
+  flex-direction: row;            
+  justify-content: space-between; 
+  align-items: center;  
+  background-color: #54D454;          
 }
 
-.section3 {
-  height: 50px;
+#birdwatching {
+  margin: 0 auto; 
+  font-family: 'cinzel decorative';
+  text-shadow: 2px 2px 4px black;
+  background-color: #54D454;
+}
+
+.image-1 {
+  background-color: #54D454;
+  height: 50px;                 
+  margin-left: auto;             
+}
+
+#navbar {
+  display: flex;
+  background-color: #29E929;
+  list-style-type: none;
+  padding: 5px;
+  margin-top: 15px;
+}
+
+#navbar li a, #navbar li span {
+  font-family: 'Roboto Condensed';
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  background-color: #29E929;
+}
+
+/* middle section */
+.section-2 {
+  display: flex;
+  height: auto;
+  padding: 5px;
+  margin: 5px 2px;
+  background-color: #54D454;
+}
+
+.section-2 > * {
+  background-color: #54D454;
+}
+
+#welcome {
+  background-color: #29E929;
+  padding: 5px;
+  margin: 5px;
+  flex: 3;
+}
+
+#welcome > h2, #welcome > p {
+  margin-bottom: 5px;
+  background-color: #29E929;
+  margin-right: 5px;
+  font-family: 'roboto condensed';
+}
+
+#welcome > h2 {
+  display: flex;
+  justify-content: center;
+  font-family: 'cinzel decorative';
+}
+
+/* favorites and pictures */
+#favorites {
+  margin: 5px;
+  padding: 5px;
+  background-color: #29E929;
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+  font-family: 'cinzel decorative';
+}
+
+#favorites > h2 {
+  width: 50%;
+  background-color: #29E929;
+}
+
+#favorites .images {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-between; 
+}
+
+#favorites .images a {
+  background-color: #29E929;
+  flex: 1 1 50%;
+}
+
+#favorites a > img {
+  width: 100%;
+}
+
+/* Footer */
+
+#footer {
+  height: 250px;
+  background-color: #54D454;
+  margin-left: 2px;
+  font-family: 'roboto condensed';
+  
+}
+
+#footer > *, #footer p > a {
+  background-color: #54D454;
+  padding: 10px;
 }
