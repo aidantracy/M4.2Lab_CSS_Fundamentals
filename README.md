@@ -2,23 +2,13 @@
 
 ## Overview
 
-TODO: Write a project description
+This project is a personal gauge of where I am at with my css skills and figure out what I need to review before jumping into future projects.
+
+
+## Setup
+
+To start, you will need to have live preview enabled. Click on the explorer tab on the left hand side if it is not showing a file hierarchy. Once shown, right click on the index.html file and click "show preview"
 
 ## Sources and Credits
 
-TODO: You must credit the sources and authors of any code, libraries, or other
-assets you use in your project. If you leave this section blank, your project
-will be considered in violation of the Academic Honesty policy unless you truly
-created everything from scratch with no outside help. If you need to use a
-source that you cannot credit (e.g. a classmate's work), you must get explicit
-permission from your instructor.
-
-A simple bulleted list below is sufficient. For example:
-
-- Bootstrap: https://getbootstrap.com/
-- jQuery: https://jquery.com/
-- Background image: https://unsplash.com/photos/...
-- Sound effects: https://freesound.org/people/...
-- Icons: https://fontawesome.com/
-- Fonts: https://fonts.google.com/
-- etc.
+Google for flex box
